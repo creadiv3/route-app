@@ -29,4 +29,80 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: var(--bg-color);
   color: var(--font-main);
+  letter-spacing: 1.5px;
+  height: 400vh;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url('./img/background.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-nav {
+  width: 20%;
+  margin: 0 auto;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-nav a {
+  text-decoration: none;
+  color: var(--font-main);
+  font-size: 30px;
+  font-weight: var(--font-semi-bold);
+  text-transform: uppercase;
+}
+
+.hero-text {
+  width: 60%;
+  height: 30%;
+  margin: 140px auto;
+}
+
+.hero-text h1 {
+  font-size: 100px;
+  font-weight: var(--font-black);
+  text-transform: uppercase;
+  letter-spacing: 52px;
+  text-align: right;
+}
+
+.hero-text p {
+  font-size: 36px;
+  font-weight: var(--font-black);
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  text-align: right;
+}
+
+.photo {
+  display: flex;
+  position: relative;
+}
+
+.photo img {
+  position: absolute;
+  top: -350px;
+  left: 200px;
+}
+
+.photo-one--text {
+  position: absolute;
+  top: -70px;
+  left: 640px;
+}
+
+.photo-one--text {
+  font-size: 40px;
+  font-weight: var(--font-regular);
 }
